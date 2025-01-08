@@ -1,6 +1,6 @@
 ## Project Overview
 
-The purpose of this project is to explore the effect of higher- or lower-than-expected economic data releases on the 2-year and 10-year U.S. Treasury yields.
+The purpose of this project is to explore the effect of higher- or lower-than-expected economic data releases on 2-year and 10-year U.S. Treasury yields.
 
 ## Steps Involved:
 
