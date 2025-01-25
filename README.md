@@ -1,13 +1,13 @@
 ## Project Overview
 
-The purpose of this project is to explore the effect of higher- or lower-than-expected economic data releases on 2-year and 10-year U.S. Treasury yields.
+The purpose of this project is to explore the effect of higher- or lower-than-expected job market data releases on 2-year and 10-year U.S. Treasury yields.
 
 ## Steps Involved:
 
 - Extract data from the Bloomberg Terminal using the API and import it into Excel.
 
 - Define Nonfarm Payrolls (NFP) Survey Delta as the difference between the actual data release and Bloomberg's survey estimate of Wall Street’s forecast:
-  - A positive NFP Survey Delta means the change in NFP was higher than forecasted by Wall Street.
+  - A positive NFP Survey Delta means the NFP change was higher than Wall Street forecasted.
     - This can indicate economic strength or strengthening, potentially causing rates to sell off.
   - A negative NFP Survey Delta means the change in NFP was lower than forecasted by Wall Street.
     - This can indicate economic weakness or weakening, potentially causing rates to rally.
@@ -26,5 +26,5 @@ The purpose of this project is to explore the effect of higher- or lower-than-ex
 ## Current Findings:
 
 - 10-Year Treasury Yield: Daily yield changes for the sample period are normally distributed.
-- 2-Year Treasury Yield: Yield changes on NFP release days tend to be positive with higher-than-expected releases and negative with lower-than-expected releases, aligning with the above outlined relationship.
+- 2-Year Treasury Yield: Yield changes on NFP release days tend to be positive with higher-than-expected releases and negative with lower-than-expected releases, aligning with the above-outlined relationship.
 - 10-Year Treasury Yield: Yield changes on NFP release days tend to show no consistent relationship with higher- or lower-than-expected releases.
